@@ -5,16 +5,26 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 
-stage.set_background("basketballcourt25")
+stage.set_background("fall")
 
 
-sq1 = codesters.Square(100, 100, 200, 'red')
+sq1 = codesters.Square(100, 100, 200, 'LightBlue')
 sq2 = codesters.Square(-100, 100, 200, 'pink')
-sq3 = codesters.Square(-100, -100, 200, 'gold')
-sq4 = codesters.Square(100, -100, 200, 'blue')
+sq3 = codesters.Square(-100, -100, 200, 'LightGreen')
+sq4 = codesters.Square(100, -100, 200, 'LightYellow')
 
 
-basketball = codesters.Sprite("basketball", 100, 100, 200)
-spotify = codesters.Sprite("spotify",-100, 100, 200)
-taiwan = codesters.Sprite("taiwan", -100, -100, 200)
-saas = codesters.Sprite("cardinal", 100, -100, 200)
+basketball = codesters.Sprite("basketball", 100, 100)
+basketball.set_size(1.5)
+spotify = codesters.Sprite("spotify",-100, 100)
+spotify.set_size(0.2)
+taiwan = codesters.Sprite("taiwan", -100, -100)
+taiwan.set_size(0.15)
+saas = codesters.Sprite("cardinal", 100, -100)
+saas.set_size(0.7)
+
+
+msg1 = codesters.Text("Ethan Wang",0,220,"black")
+msg1.set_size(5)
+
+msg2 = codesters.Text("Hello", 0, -220,"black")
