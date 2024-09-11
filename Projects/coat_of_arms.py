@@ -5,13 +5,13 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 
-stage.set_background("fall")
+stage.set_background("park")
 
 
-sq1 = codesters.Square(100, 100, 200, 'LightBlue')
-sq2 = codesters.Square(-100, 100, 200, 'pink')
-sq3 = codesters.Square(-100, -100, 200, 'LightGreen')
-sq4 = codesters.Square(100, -100, 200, 'LightYellow')
+sq1 = codesters.Square(100, 100, 200, 'Pink')
+sq2 = codesters.Square(-100, 100, 200, 'LightGreen')
+sq3 = codesters.Square(-100, -100, 200, 'LightBlue')
+sq4 = codesters.Square(100, -100, 200, 'IndianRed')
 
 
 basketball = codesters.Sprite("basketball", 100, 100)
