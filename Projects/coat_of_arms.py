@@ -24,7 +24,7 @@ saas = codesters.Sprite("cardinal", 100, -100)
 saas.set_size(0.7)
 
 
-msg1 = codesters.Text("Ethan Wang",0,220,"black")
+msg1 = codesters.Text("Ethan Wang",0,220,"Black")
 msg1.set_size(5)
 
-msg2 = codesters.Text("Hello", 0, -220,"black")
+msg2 = codesters.Text("Hello", 0, -220,"Black")
