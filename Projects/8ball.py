@@ -6,7 +6,7 @@ responses = [
     "idk",
     "You choose",
     "Yes, just wait.",
-    "My sources say no.",
+    "My sources say no",
     "Guaranteed.",
     "Its up to you.",
     "Yeah.",
@@ -18,8 +18,7 @@ responses = [
     "Its complicated",
     "What do you think",
     "Not really.",
-    "Flip a coin!",
-    "Anything could happen"
+    "Anything could happen",
 ]
 
 #8-Ball
@@ -32,7 +31,7 @@ def magic_8_ball():
         answer = random.choice(responses)  #random response
         print("Magic 8-Ball says:", answer)  #answer
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+############################
 if __name__ == "__main__":
     magic_8_ball()
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+############################

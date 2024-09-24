@@ -20,7 +20,7 @@ def number_guessing_game():
         guess = int(guess)
         attempts += 1
 
-        # Check the guess
+        # check the guess
         if guess < secret_number:
             print("Higher! Try again.")
         elif guess > secret_number:
@@ -29,5 +29,5 @@ def number_guessing_game():
             print(f"Congratulations! You've guessed the number {secret_number} in {attempts} attempts.")
             break
 
-# Run the game
+# Run
 number_guessing_game()
