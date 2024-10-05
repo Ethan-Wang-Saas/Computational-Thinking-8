@@ -1,5 +1,6 @@
 import turtle 
 
+#make john
 john= turtle.Turtle()
 john.penup()
 john.goto(175,-10)
@@ -7,6 +8,7 @@ john.color("red")
 john.pendown()
 john.speed(10000)
 
+#make jim
 jim= turtle.Turtle()
 jim.penup()
 jim.goto(-235,-10)
@@ -14,6 +16,7 @@ jim.color("red")
 jim.pendown()
 jim.speed(10000)
 
+#make billy
 billy= turtle.Turtle()
 billy.penup()
 billy.goto(210,0)
@@ -21,6 +24,7 @@ billy.color("Orange")
 billy.pendown()
 billy.speed(10000)
 
+#make t
 t= turtle.Turtle()
 t. penup()
 t.goto(-200,0)
