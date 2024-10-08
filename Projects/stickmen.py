@@ -11,11 +11,11 @@ def draw_stickman(x, y):
     pen.pendown()
 
     # Head
-    pen.circle(20)
+    pen.circle(50)
 
     # Body
     pen.penup()
-    pen.goto(x, y - 40)
+    pen.goto(x, y - 0)
     pen.pendown()
     pen.goto(x, y - 100)
 
